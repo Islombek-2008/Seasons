@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	height: 100vh;
+}
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.box-wrapper {
+	width: 500px;
+	display: flex;
+	justify-content: space-between;
+}
+.box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 200px;
+	height: 200px;
+	border-radius: 5px;
+	border: 2px solid red;
+	margin: 24px;
+	cursor: pointer;
+	color: red;
+	font-size: 22px;
+	font-weight: bold;
+	transition: 0.2s;
+	background-size: cover;
+}
+.box:active {
+	transform: scale(0.98);
+}
+#box {
+	background-image: url(./img/bahor.jpg);
+}
+#box1 {
+	background-image: url(./img/yoz.jfif);
+}
+#box2 {
+	background-image: url(./img/kuz.jpg);
+}
+#box3 {
+	background-image: url(./img/qish.jpg);
+}
